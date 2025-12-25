@@ -22,17 +22,11 @@ This program allows you to generate passwords, save them to a file, and attempt 
 
 passwords.txt
 
-css
-Kodu kopyala
-
 - It must contain one 6-digit password per line, example:
 
 123456
 654321
 111111
-
-yaml
-Kodu kopyala
 
 ---
 
@@ -40,17 +34,16 @@ Kodu kopyala
 
 Compile using GCC (works on Windows, Linux, Kali, etc.):
 
-```sh
 gcc brute_force_lab.c -o brute_force_lab
+
 Run the compiled program:
 
-sh
-Kodu kopyala
+
+
 ./brute_force_lab   (Linux / Kali)
 brute_force_lab.exe (Windows)
 🚀 Usage Example
-python-repl
-Kodu kopyala
+
 Welcome to brute force lab program.
 
 1- Brute Force without creating password
@@ -65,8 +58,8 @@ Created Password, Line: 2, Password: 192837
 ...
 Then brute force it:
 
-pgsql
-Kodu kopyala
+
+
 >>> 1
 Enter target password >> 192837
 1. try X, it isn't 483920
